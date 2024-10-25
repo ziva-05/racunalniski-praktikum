@@ -59,5 +59,18 @@ h2 {
 .slika img {
     width: 100%;
     height: auto;
+    border-radius: 50%;
 }
 
+.slika p:last-child {
+    font-size: 0,8em;
+    margin-top: 0;
+}
+
+.slika p {
+    margin-bottom: 0;
+}
+
+a::before {
+    content: "♥ "
+}
